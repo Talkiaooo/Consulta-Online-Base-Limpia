@@ -17,7 +17,9 @@ Proyecto para consultar una base de datos en modo de solo lectura utilizando Str
 utilizar las siguientes lineas de codigo para instalar el *Streamlit*
 
 !pip install -q streamlit
-import streamlit as st
-!npm install localtunnel
-!streamlit run app.py
+
+!npm install -g localtunnel
+
+!streamlit run app.py >/content/logs.txt 2>&1 &
+
 !npx localtunnel --port 8501
