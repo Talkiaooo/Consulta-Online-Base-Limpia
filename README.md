@@ -16,10 +16,10 @@ Proyecto para consultar una base de datos en modo de solo lectura utilizando Str
 
 utilizar las siguientes lineas de codigo en el codespace para instalar el *Streamlit*
 
-!pip install -q streamlit
+cd /workspaces/Consulta-Online-Base-Limpia
 
-!npm install -g localtunnel
+python3 -m pip install --upgrade pip
 
-!streamlit run app.py >/content/logs.txt 2>&1 &
+python3 -m pip install streamlit pandas openpyxl
 
-!npx localtunnel --port 8501
+python3 -m streamlit run app.py
