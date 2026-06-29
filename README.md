@@ -14,7 +14,7 @@ Proyecto para consultar una base de datos en modo de solo lectura utilizando Str
 
 ## Recordar
 
-utilizar las siguientes lineas de codigo para instalar el *Streamlit*
+utilizar las siguientes lineas de codigo en el codespace para instalar el *Streamlit*
 
 !pip install -q streamlit
 
